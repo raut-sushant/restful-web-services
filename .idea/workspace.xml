@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6db680-00c7-4dcc-a777-42f60d56d008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_4_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_4_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_4_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_4_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_0_M1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restful-web-services.iml" beforeDir="false" afterPath="$PROJECT_DIR$/restful-web-services.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sushant/rest/webservices/restfulwebservices/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sushant/rest/webservices/restfulwebservices/user/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/restful-web-services.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +71,9 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sushant.rest.webservices.restfulwebservices.user" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.sushant.rest.webservices.restfulwebservices.versioning" />
       <recent name="com.sushant.rest.webservices.restfulwebservices.filtering" />
@@ -225,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596492105612</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Security basic auth">
+      <created>1596493409414</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1596493409414</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,7 +265,8 @@
     <MESSAGE value="Filtering at class level" />
     <MESSAGE value="Dynamic Filtering" />
     <MESSAGE value="Versioning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Versioning" />
+    <MESSAGE value="Security basic auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Security basic auth" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1596488302748">
@@ -267,45 +279,45 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="458" y="210" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.821@0.23.1440.821" timestamp="1596488175293" />
-    <state x="319" y="30" key="CommitChangelistDialog2" timestamp="1596492105405">
+    <state x="319" y="30" key="CommitChangelistDialog2" timestamp="1596493409165">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="319" y="30" key="CommitChangelistDialog2/0.23.1440.821@0.23.1440.821" timestamp="1596492105405" />
+    <state x="319" y="30" key="CommitChangelistDialog2/0.23.1440.821@0.23.1440.821" timestamp="1596493409165" />
     <state x="319" y="30" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1596430308449" />
     <state x="319" y="30" key="CommitChangelistDialog2/0.23.1440.823@0.23.1440.823" timestamp="1596473498776" />
-    <state width="1358" height="363" key="GridCell.Tab.0.bottom" timestamp="1596493381047">
+    <state width="1358" height="363" key="GridCell.Tab.0.bottom" timestamp="1596502914619">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1596233400697" />
     <state width="679" height="363" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1596380668455" />
-    <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1596493381047" />
+    <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1596502914619" />
     <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1596476672584" />
     <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1596475569592" />
     <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1596467355117" />
-    <state width="1358" height="363" key="GridCell.Tab.0.center" timestamp="1596493381046">
+    <state width="1358" height="363" key="GridCell.Tab.0.center" timestamp="1596502914618">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1358" height="363" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1596233400697" />
     <state width="679" height="363" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1596380668454" />
-    <state width="1358" height="363" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1596493381046" />
+    <state width="1358" height="363" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1596502914618" />
     <state width="1358" height="363" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1596476672583" />
     <state width="1358" height="363" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1596475569590" />
     <state width="1358" height="363" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1596467355116" />
-    <state width="1358" height="363" key="GridCell.Tab.0.left" timestamp="1596493381045">
+    <state width="1358" height="363" key="GridCell.Tab.0.left" timestamp="1596502914617">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1358" height="363" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1596233400696" />
     <state width="679" height="363" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1596380668454" />
-    <state width="1358" height="363" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1596493381045" />
+    <state width="1358" height="363" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1596502914617" />
     <state width="1358" height="363" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1596476672583" />
     <state width="1358" height="363" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1596475569589" />
     <state width="1358" height="363" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1596467355116" />
-    <state width="1358" height="363" key="GridCell.Tab.0.right" timestamp="1596493381046">
+    <state width="1358" height="363" key="GridCell.Tab.0.right" timestamp="1596502914619">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1358" height="363" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1596233400697" />
     <state width="679" height="363" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1596380668455" />
-    <state width="1358" height="363" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1596493381046" />
+    <state width="1358" height="363" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1596502914619" />
     <state width="1358" height="363" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1596476672583" />
     <state width="1358" height="363" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1596475569591" />
     <state width="1358" height="363" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1596467355117" />
@@ -345,11 +357,11 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="558" y="303" key="VCS.EditChangelistDialog/0.23.1440.821@0.23.1440.821" timestamp="1596378678860" />
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1596492113313">
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1596493417384">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1596257938534" />
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1596492113313" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1596493417384" />
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1596430319444" />
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.823@0.23.1440.823" timestamp="1596473512821" />
     <state x="515" y="213" key="chooseDestDirectoryDialog" timestamp="1596488072486">
@@ -375,11 +387,11 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.23.1440.822@0.23.1440.822" timestamp="1596407160915" />
-    <state x="385" y="163" width="670" height="683" key="search.everywhere.popup" timestamp="1596492202634">
+    <state x="385" y="163" width="670" height="683" key="search.everywhere.popup" timestamp="1596493635895">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="385" y="161" width="670" height="676" key="search.everywhere.popup/0.23.1440.814@0.23.1440.814" timestamp="1596231875797" />
-    <state x="385" y="163" width="670" height="683" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1596492202634" />
+    <state x="385" y="163" width="670" height="683" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1596493635895" />
     <state x="385" y="163" width="670" height="684" key="search.everywhere.popup/0.23.1440.823@0.23.1440.823" timestamp="1596473905019" />
   </component>
   <component name="XDebuggerManager">
